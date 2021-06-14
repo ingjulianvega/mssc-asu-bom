@@ -12,7 +12,7 @@
 
 	<groupId>ingjulianvega.ximic</groupId>
 	<artifactId>mssc-asu-bom</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>mssc-asu-bom</name>
 	<description>Bill of materials base project</description>
 	<packaging>pom</packaging>
@@ -165,11 +165,11 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 			<version>3.0.2</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 			<version>2.2.8.RELEASE</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
@@ -185,12 +185,12 @@
 			<artifactId>logback-core</artifactId>
 			<version>1.2.3</version>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 			<version>3.0.2</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 			<version>3.0.3</version>
